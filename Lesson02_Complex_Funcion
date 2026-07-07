@@ -1,9 +1,19 @@
 def get_pay(fourty_hours):
-    # Pre-tax pay, based on receiving $100/hour
-    pay_pretax = fourty_hours * 100
+    # Pre-tax pay, based on receiving $30/hour
+    pay_pretax = fourty_hours * 30
     # After-tax pay, based on being in 12% tax bracket
     pay_aftertax = pay_pretax * (1 - .12)
     return pay_aftertax
-# Calculate pay based on working 40 hours
+    # Calculate pay based on working 40 hours
 pay_fulltime = get_pay(40)
 print(pay_fulltime)
+pay_parttime = get_pay(28)
+print(pay_parttime)
+def get_pay_with_more_inputs(hours, hourly_wage, Tax_bracket):
+    # Pre-tax pay
+    pay_pretax = hours * hourly_wage
+    # After-tax pay
+    pay_aftertax = pay_pretax * (1 - Tax_bracket)
+    return pay_aftertax
+higher_pay_aftertax = get_pay_with_more_inputs(40, 24, .12)
+print(higher_pay_aftertax)
