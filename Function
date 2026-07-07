@@ -1,0 +1,7 @@
+def add_twenty(number):
+    output_var = number + 20
+    return output_var
+# Run the function with 10 as input
+new_number = add_twenty(10)
+# Check that the value is 30, as expected
+print(new_number)
