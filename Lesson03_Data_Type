@@ -1,0 +1,3 @@
+A = "PLOY"
+print(A)
+print(type(A))
