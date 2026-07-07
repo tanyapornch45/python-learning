@@ -1,0 +1,11 @@
+Box = ["cat", "doll", "dog"]
+print(Box[0])
+Box[1] = "doll"
+print(Box[1])
+Box.append("bird")
+print(Box)
+Box[3]
+print(Box[3])
+Box.pop()
+print(Box)
+print(len(Box))
