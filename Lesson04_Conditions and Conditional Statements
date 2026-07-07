@@ -1,0 +1,31 @@
+age = 7
+if age <= 18:
+    print("Teenager")
+age = 50
+if age >= 18:
+    print("Adult")
+else:
+    print("Child")
+age = 55
+if age >= 60:
+    print("A")
+elif age >= 50:
+    print("B")
+elif age >= 40:
+    print("C")
+else:
+    print("D")
+A = 17
+if A == 17:
+    print("correct")
+age = 50
+money = 300
+if age >= 50 and money >= 300:
+    print("rich")
+age = 50
+money = 300
+if age >= 50 or money >= 300:
+    print("wealthy")
+is_open = False
+if not is_open:
+    print("close")
