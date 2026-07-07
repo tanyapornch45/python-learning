@@ -1,3 +1,12 @@
-A = "PLOY"
+floot = 500.123
+print(floot)
+print(type(floot))
+APPLE = True
+print(APPLE)
+print(type(APPLE))
+A = "ATEEZ"
+print(A)
+print(type(A))
+A = 1117
 print(A)
 print(type(A))
